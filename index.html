@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <title>grid system</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center">Flexbox</h1>
+      <div class="row">
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <h1 class="border border-success">Equal Width</h1>
+      <div class="row">
+        <div class="col border border-danger">1 of 2</div>
+        <div class="col border border-danger">2 of 2</div>
+      </div>
+      <div class="row">
+        <div class="col border border-info">1 of 3</div>
+        <div class="col border border-info">2 of 3</div>
+        <div class="col border border-info">3 of 3</div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <h3 class="text-center">Setting one column width</h3>
+      <div class="row">
+        <div class="col border border-info mt-4">1 of 3</div>
+        <div class="col-6 border border-info mt-4">2 of 3 (wider)</div>
+        <div class="col border border-info mt-4">3 of 3</div>
+      </div>
+      <div class="row">
+        <div class="col border border-danger mt-4">1 of 3</div>
+        <div class="col-5 border border-danger mt-4">2 of 3 (wider)</div>
+        <div class="col border border-danger mt-4">3 of 3</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h4 class="text-center">Variable width content</h4>
+      <div class="row justify-content-md-center">
+        <div class="col col-lg-2">1 of 3</div>
+        <div class="col-md-auto">Variable width content</div>
+        <div class="col col-lg-2">3 of 3</div>
+      </div>
+      <div class="row">
+        <div class="col">1 of 3</div>
+        <div class="col-md-auto">Variable width content</div>
+        <div class="col col-lg-2">3 of 3</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h4 class="text-primary border border-success text text-center">
+        All breakpoints or Responsive classes
+      </h4>
+      <div class="row">
+        <div class="col">col</div>
+        <div class="col">col</div>
+        <div class="col">col</div>
+        <div class="col">col</div>
+      </div>
+      <div class="row">
+        <div class="col-8">col-8</div>
+        <div class="col-4">col-4</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h3>Row columns</h3>
+      <div class="row row-cols-2">
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
